@@ -1,0 +1,69 @@
+[
+  {
+  "id": 3,
+  "name": "Folder A.1",
+  "hasChildren": true,
+  "files": [
+      {
+		"name": "file1",
+		"type": "document",
+		"size": 4,
+		"isDeleted": false
+      },
+      {
+		"name": "file2",
+		"type": "document",
+		"size": 2,
+		"isDeleted": true
+      },
+      {
+		"name": "file3",
+		"type": "document",
+		"size": 2,
+		"isDeleted": false
+      },
+      {
+		"name": "file4",
+		"type": "video",
+		"size": 30,
+		"isDeleted": false
+      },
+      {
+		"name": "file5",
+		"type": "video",
+		"size": 12,
+		"isDeleted": true
+      },
+      {
+		"name": "file6",
+		"type": "audio",
+		"size": 10,
+		"isDeleted": false
+      },
+      {
+		"name": "file7",
+		"type": "database",
+		"size": 47,
+		"isDeleted": false
+      },
+      {
+		"name": "file8",
+		"type": "emails",
+		"size": 17,
+		"isDeleted": false
+      },
+      {
+		"name": "file9",
+		"type": "emails",
+		"size": 4,
+		"isDeleted": true
+      },
+      {
+		"name": "file10",
+		"type": "virtual machines",
+		"size": 100,
+		"isDeleted": false
+      }
+    ]
+  }
+]

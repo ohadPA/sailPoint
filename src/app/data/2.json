@@ -1,0 +1,33 @@
+[
+  {
+    "id": 4,
+    "name": "Folder B.1",
+    "hasChildren": false,
+    "files": [
+      {
+        "name": "file1",
+        "type": "video",
+        "size": 45,
+		"isDeleted": false
+      },
+      {
+        "name": "file2",
+        "type": "audio",
+        "size": 22,
+		"isDeleted": true
+      },
+      {
+        "name": "file3",
+        "type": "other",
+        "size": 20,
+		"isDeleted": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Folder B.2",
+    "hasChildren": false,
+    "files": []
+  }
+]

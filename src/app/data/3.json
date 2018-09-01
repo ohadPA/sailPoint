@@ -1,0 +1,25 @@
+[{
+  "id": 6,
+  "name": "Folder A.1.1",
+  "hasChildren": false,
+  "files": [
+    {
+		"name": "file1",
+		"type": "document",
+		"size": 4,
+		"isDeleted": false
+    },
+    {
+		"name": "file2",
+		"type": "document",
+		"size": 2,
+		"isDeleted": false
+    },
+    {
+		"name": "file3",
+		"type": "document",
+		"size": 2,
+		"isDeleted": true
+    }
+  ]
+}]

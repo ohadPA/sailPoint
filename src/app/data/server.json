@@ -1,0 +1,38 @@
+[{
+  "id": 1,
+  "name": "Folder A",
+  "hasChildren": true,
+  "files": [
+    {
+		"name": "file1",
+		"type": "video",
+		"size": 4,
+		"isDeleted": false
+    },
+    {
+		"name": "file2",
+		"type": "text",
+		"size": 1,
+		"isDeleted": false
+    }
+  ]
+},
+{
+  "id": 2,
+  "name": "Folder B",
+  "hasChildren": true,
+  "files": [
+    {
+		"name": "file1",
+		"type": "database",
+		"size": 5,
+		"isDeleted": true
+    },
+    {
+		"name": "file2",
+		"type": "database",
+		"size": 6,
+		"isDeleted": true
+    }
+  ]
+}]

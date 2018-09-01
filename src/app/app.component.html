@@ -1,0 +1,36 @@
+<div class="split left">
+  <div class="centered">
+    <h2>Folders Tree</h2>
+    <tree (updateTable)="onTableUpdate($event)"></tree>    
+  </div>
+</div>
+<div class="split right">
+  <div class="centered">
+    <h2>Files Table</h2>
+    <span>Show Deleted Files <input type="checkbox" [(ngModel)]="showDeleted"></span>
+    <table class="mytable">
+      <thead>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Size</th>
+        <th>IsDeleted</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let file of this.table">
+          <td *ngIf="showDeleted || !file.isDeleted">
+            <p class="form-control">{{file.name}}</p>
+          </td>
+          <td *ngIf="showDeleted || !file.isDeleted">
+            <p class="form-control">{{file.type}}</p>				
+          </td>
+          <td *ngIf="showDeleted || !file.isDeleted">
+            <p class="form-control">{{file.size}}</p>
+          </td>
+          <td *ngIf="showDeleted || !file.isDeleted">
+            <p class="form-control">{{file.isDeleted}}</p>		
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
